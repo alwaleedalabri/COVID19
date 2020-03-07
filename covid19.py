@@ -1,4 +1,6 @@
-#!/usr/bin/env python3
+9#!/usr/bin/env python3
+#Created by ASA, From Sultanate of Oman.
+
 import argparse
 import logging
 import random
@@ -6,8 +8,10 @@ import socket
 import sys
 import time
 
+#HELP: WILL SHOW THE THE MODULE INFORMATION WHEN USER ENTERS -H COMMAND
+
 parser = argparse.ArgumentParser(
-    description="Slowloris, low bandwidth stress test tool for websites"
+    description="COVID-19, stressful DOS tool for websites"
 )
 parser.add_argument("host", nargs="?", help="Host to perform stress test on")
 parser.add_argument(
@@ -16,7 +20,7 @@ parser.add_argument(
 parser.add_argument(
     "-s",
     "--sockets",
-    default=150,
+    default=500,
     help="Number of sockets to use in the test",
     type=int,
 )
@@ -144,6 +148,7 @@ def init_socket(ip):
 def main():
     ip = args.host
     socket_count = args.sockets
+    logging.info("COVID-19, STRESSFUL DOS TOLL FOR WEBSITES. BY ASA FROM SULTANATE OF OMAN.")
     logging.info("Attacking %s with %s sockets.", ip, socket_count)
 
     logging.info("Creating sockets...")

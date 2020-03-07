@@ -1,13 +1,13 @@
 from distutils.core import setup
 
 setup(
-    name="Slowloris",
-    py_modules=["slowloris"],
-    entry_points={"console_scripts": ["slowloris=slowloris:main"]},
+    name="COVID19",
+    py_modules=["COVID19"],
+    entry_points={"console_scripts": ["COVID19=COVID:main"]},
     version="0.2.0",
-    description="Low bandwidth DoS tool. Slowloris rewrite in Python.",
-    author="Gokberk Yaltirakli",
-    author_email="webdosusb@gmail.com",
-    url="https://github.com/gkbrk/slowloris",
-    keywords=["dos", "http", "slowloris"],
+    description="stressful DOS tool for websites.",
+    author="ASA",
+    author_email="asa10.asa10.asa69@gmail.com",
+    url="https://github.com/asa-asa/COVID19",
+    keywords=["dos", "ddos", "http", "covid19"],
 )
