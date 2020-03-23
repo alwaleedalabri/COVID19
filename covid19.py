@@ -164,10 +164,8 @@ def main():
     while True:
         try:
             logging.info(
-                "Sending alive headers... Server is accepting: %s Socket ", len(list_of_sockets)
-                "If sockets count = 0(HOST IS DOWN, CHECK DOMAIN NAME OR THERE IS AN ERROR THROUGH THE CONNECTION)"
-                "If sockets count = the configured sockets count or default 500 sockets(SERVER HAS ELASTIC HOST, TRY DDOS)"
-                "If sockets count less than the configured sockets count or defualt 500 (SUCCESSFUL ATTACK)"
+                "Sending alive headers... Server is accepting: %s Socket 
+                If sockets count = 0(HOST IS DOWN, CHECK DOMAIN NAME OR THERE IS AN ERROR THROUGH THE CONNECTION)", len(list_of_sockets)
             )
             for s in list(list_of_sockets):
                 try:
