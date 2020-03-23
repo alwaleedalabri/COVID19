@@ -148,14 +148,15 @@ def init_socket(ip):
 def main():
     ip = args.host
     socket_count = args.sockets
+    logging.info(" ")
     logging.info("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     logging.info("!!!                                                                                                                                !!! ")
     logging.info("!!!                                                    ---COVID-19---                                                              !!! ")
     logging.info("!!!                                 ---STRESSFUL DoS TOOL FOR WEBSITES, NOT VIRUS!---                                              !!!")                   
-    logging.info("!!!                               ---CREATED BY ALWALEED ALABRI FROM SULTANATE OF OMAN---                                          !!! ")
+    logging.info("!!!                               ---CREATED BY (ALWALEED ALABRI) FROM SULTANATE OF OMAN---                                        !!! ")
     logging.info("!!!                                                                                                                                !!!")
     logging.info("!!!                                                                                                                                !!!")
-    logging.info("!!!                                                     //NOTE\\                                                                   !!! ")                                                           
+    logging.info("!!!                                                     //NOTE\\.                                                                  !!! ")                                                           
     logging.info("!!!                                                                                                                                !!!")
     logging.info("!!!  If sockets count = 0: Host is down, check the domain name or connection error.                                                !!!")
     logging.info("!!!  If scockets count = attacking sockets: Server is elastic host TRY DDoS GOOD LUCK!                                             !!!")
