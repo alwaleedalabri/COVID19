@@ -148,7 +148,7 @@ def init_socket(ip):
 def main():
     ip = args.host
     socket_count = args.sockets
-    logging.info("COVID-19, STRESSFUL DOS TOLL FOR WEBSITES. BY ASA FROM SULTANATE OF OMAN.")
+    logging.info("COVID-19, STRESSFUL DOS TOOL FOR WEBSITES. BY ASA FROM SULTANATE OF OMAN.")
     logging.info("Attacking %s with %s sockets.", ip, socket_count)
 
     logging.info("Creating sockets...")
