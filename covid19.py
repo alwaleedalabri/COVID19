@@ -164,7 +164,7 @@ def main():
     while True:
         try:
             logging.info(
-                "Sending alive headers to %s ... Server communicated with  %s sockets", len(list_of_sockets)
+                "Sending alive headers... Server accepted: %s Socket ", len(list_of_sockets)
             )
             for s in list(list_of_sockets):
                 try:
