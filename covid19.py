@@ -150,9 +150,9 @@ def main():
     socket_count = args.sockets
     logging.info("COVID-19, STRESSFUL DoS TOOL FOR WEBSITES. BY ASA FROM SULTANATE OF OMAN.")
     logging.info("Attacking %s with %s sockets.", ip, socket_count)
-    loging.info("If sockets count = 0. Host is down, check the domain name or there was a connection error.")
-    loging.info("If scockets count = configured sockets count or defualt 500 sockets. Server is elastic host TRY DDoS GOOD LUCK!")
-    loging.info("If sockets count less than the configured. The attack success, if the socket count dropped to 0 means you killed to server") 
+    logging.info("If sockets count = 0. Host is down, check the domain name or there was a connection error.")
+    logging.info("If scockets count = configured sockets count or defualt 500 sockets. Server is elastic host TRY DDoS GOOD LUCK!")
+    logging.info("If sockets count less than the configured. The attack success, if the socket count dropped to 0 means you killed to server") 
     
     
 
