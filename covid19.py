@@ -1,5 +1,5 @@
 9#!/usr/bin/env python3
-#Created by ASA, From Sultanate of Oman.
+#Created by Alwaleed Alabri, From Sultanate of Oman.
 
 import argparse
 import logging
@@ -11,7 +11,7 @@ import time
 #HELP: WILL SHOW THE THE MODULE INFORMATION WHEN USER ENTERS -H COMMAND
 
 parser = argparse.ArgumentParser(
-    description="COVID-19, stressful DOS tool for websites"
+    description="COVID-19, stressful DoS tool for websites"
 )
 parser.add_argument("host", nargs="?", help="Host to perform stress test on")
 parser.add_argument(
@@ -153,7 +153,7 @@ def main():
     print("█                                                                    █")
     print("█                          ---COVID19---                             █")
     print("█        ---STRESSFUL DoS TOOL FOR WEBSITES, NOT VIRUS!---           █")                   
-    print("█      ---AURTHOR ./ALWALEED ALABRI\. FROM SULTANATE OF OMAN---      █")
+    print("█      ---CREATED BY: ALWALEED ALABRI FROM SULTANATE OF OMAN---      █")
     print("█                                                                    █")
     print("█                                                                    █")
     print("█            [+]═══════════[OUTPUT NOTES]═══════════[+]              █")              
