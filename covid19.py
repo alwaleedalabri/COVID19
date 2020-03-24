@@ -209,7 +209,7 @@ def main():
             time.sleep(args.sleeptime)
 
         except (KeyboardInterrupt, SystemExit):
-            logging.info("Stopping Slowloris")
+            logging.info("Stopping COVID19")
             break
 
 
