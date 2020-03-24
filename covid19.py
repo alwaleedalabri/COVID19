@@ -11,7 +11,7 @@ import time
 #HELP: WILL SHOW THE THE MODULE INFORMATION WHEN USER ENTERS -H COMMAND
 
 parser = argparse.ArgumentParser(
-    description="COVID-19, stressful DoS tool for websites"
+    description="COVID-19, stressful DoS tool for websites. NOT VIRUS!"
 )
 parser.add_argument("host", nargs="?", help="Host to perform stress test on")
 parser.add_argument(
