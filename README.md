@@ -22,7 +22,7 @@ That's all it takes to install and run covid19.py.
 
 If you want to clone using git instead of pip, here's how you do it.
 
-* `git clone https://github.com/asa-asa/COVID19.git`
+* `git clone https://github.com/asa0x/COVID19.git`
 * `cd covid19`
 * `python3 covid19 example.com`
 
