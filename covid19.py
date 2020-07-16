@@ -1,5 +1,5 @@
 9#!/usr/bin/env python3
-#Created by Alwaleed Alabri, From Sultanate of Oman.
+#Created by ASA, From Sultanate of Oman.
 
 import argparse
 import logging
